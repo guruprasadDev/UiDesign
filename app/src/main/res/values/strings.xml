@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">UI Design</string>
+    <string name="txt_account">Account</string>
+    <string name="txt_dec_11">Dec 11</string>
+    <string name="txt_10_am">10 AM</string>
+    <string name="txt_13_045_hft">13.045 HFT</string>
+    <string name="txt_12k">12k</string>
+    <string name="txt_followers">followers</string>
+    <string name="txt_127">127</string>
+    <string name="txt_followings">followings</string>
+    <string name="txt_painting">Painting</string>
+    <string name="txt_sculpture">sculpture</string>
+    <string name="txt_architecture">Architecture</string>
+    <string name="txt_11_dec">11 Dec</string>
+    <string name="txt_hanna_art">Hanna Art</string>
+    <string name="txt_martin_collection">Martin Collection</string>
+    <string name="txt_12_032_eth">12.032 ETH</string>
+    <string name="txt_guru">Harinath</string>
+    <string name="txt_hello">Hello,</string>
+    <string name="txt_full_body">Full body</string>
+    <string name="txt_cardio">Cardio</string>
+    <string name="txt_cross_fit">Cross fit</string>
+    <string name="txt_loose_n_booty_fat">Loose\nbody fat</string>
+    <string name="txt_40_minutes">40 minutes</string>
+    <string name="txt_start">Start</string>
+    <string name="txt_25">56&#37;</string>
+</resources>
