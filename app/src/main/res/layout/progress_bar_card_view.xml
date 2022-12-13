@@ -1,0 +1,62 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_progress"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="@color/lite_yellow"
+    app:cardCornerRadius="@dimen/small_20dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ProgressBar
+            android:id="@+id/circularProgressbar"
+            style="@style/CircularDeterminateProgressBar"
+            android:layout_width="@dimen/large_100dp"
+            android:progress="@integer/material_motion_duration_medium_1"
+            android:layout_height="@dimen/large_100dp" />
+
+        <TextView
+            android:id="@+id/txt_progress"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="37dp"
+            android:text="@string/txt_25"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_great"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@id/circularProgressbar"
+            android:text="@string/txt_great"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_great"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="@dimen/small_8dp"
+            android:layout_marginBottom="@dimen/small_8dp"
+            android:layout_toEndOf="@id/circularProgressbar"
+            android:text="@string/you_lost_70_of_your_n_daily_calorie_intake"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

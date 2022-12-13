@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <include
+        android:id="@+id/card_view"
+        layout="@layout/card_view" />
+
+    <include
+        android:id="@+id/chip_layout"
+        layout="@layout/chip_layout" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/chip_layout"
+        android:layout_marginTop="@dimen/small_16dp"
+        tools:listitem="@layout/item_view_for_account_screen" />
+
+</RelativeLayout>
