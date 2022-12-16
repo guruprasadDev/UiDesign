@@ -9,7 +9,7 @@
     <string name="txt_127">127</string>
     <string name="txt_followings">followings</string>
     <string name="txt_painting">Painting</string>
-    <string name="txt_sculpture">sculpture</string>
+    <string name="txt_sculpture">Sculpture</string>
     <string name="txt_architecture">Architecture</string>
     <string name="txt_11_dec">11 Dec</string>
     <string name="txt_hanna_art">Hanna Art</string>
@@ -23,5 +23,14 @@
     <string name="txt_loose_n_booty_fat">Loose\nbody fat</string>
     <string name="txt_40_minutes">40 minutes</string>
     <string name="txt_start">Start</string>
-    <string name="txt_25">56&#37;</string>
+    <string name="txt_25">76%</string>
+    <string name="txt_great">Great!</string>
+    <string name="you_lost_70_of_your_n_daily_calorie_intake">You lost 70% of your\ndaily calorie intake</string>
+    <string name="txt_middle_level">Middle level</string>
+    <string name="txt_21">21%</string>
+    <string name="txt_13_dec_2022">13 Dec 2022</string>
+    <string name="txt_98_60">$98.60</string>
+    <string name="txt_income">Income</string>
+    <string name="txt_recent_activity">Recent Activity</string>
+    <string name="txt_saved_transaction">Saved Transaction</string>
 </resources>

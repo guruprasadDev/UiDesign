@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_below="@id/card_view"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.chip.ChipGroup
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/small_16dp"
+        android:layout_marginTop="@dimen/small_16dp"
+        app:chipSpacingHorizontal="@dimen/small_8dp">
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="@string/txt_painting"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_24sp"
+            app:chipMinHeight="@dimen/normal_48dp"
+            app:textEndPadding="@dimen/small_16dp"
+            app:textStartPadding="@dimen/small_16dp" />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="@string/txt_sculpture"
+            android:textSize="@dimen/text_size_16sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="@string/txt_architecture"
+            android:textSize="@dimen/text_size_16sp"
+            android:textStyle="bold" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+</LinearLayout>
+

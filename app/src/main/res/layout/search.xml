@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="?attr/actionBarTheme">
+
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="@dimen/large_280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_32dp"
+        android:layout_marginTop="@dimen/normal_32dp"
+        android:background="@drawable/bg_white_rounded"
+        android:clickable="true"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search"
+        app:defaultQueryHint="hint"
+        app:iconifiedByDefault="false" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="@dimen/normal_58dp"
+        android:layout_height="@dimen/normal_58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/small_24dp"
+        android:layout_toEndOf="@id/search_view"
+        android:src="@drawable/user" />
+
+
+</RelativeLayout>
+

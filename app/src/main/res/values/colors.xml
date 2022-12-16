@@ -10,4 +10,6 @@
     <color name="gray">#f2f2f2</color>
     <color name="pink">#f5eefe</color>
     <color name="lite_yellow">#fff7ec</color>
+    <color name="lite_gray">#aeaeae</color>
+    <color name="dark_gray">#f1f1f1</color>
 </resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/toolbar"
+    app:cardBackgroundColor="@color/black"
+    app:cardCornerRadius="@dimen/normal_36dp"
+    app:cardElevation="@dimen/small_10dp"
+    app:cardMaxElevation="@dimen/small_12dp"
+    android:layout_margin="@dimen/small_24dp"
+    app:cardPreventCornerOverlap="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/small_20dp">
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/small_16dp"
+            android:padding="@dimen/small_8dp"
+            android:text="@string/txt_dec_11"
+            android:textStyle="normal"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txt_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/small_16dp"
+            android:padding="@dimen/small_8dp"
+            android:text="@string/txt_10_am"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_24sp" />
+
+        <TextView
+            android:id="@+id/txt_hft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_date"
+            android:layout_marginStart="@dimen/small_16dp"
+            android:text="@string/txt_13_045_hft"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_30sp"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/large_60dp"
+            android:layout_height="@dimen/large_60dp"
+            android:layout_below="@id/txt_hft"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="50dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/txt_followers_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_hft"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/small_20dp"
+            android:layout_marginTop="@dimen/large_64dp"
+            android:layout_toStartOf="@id/txt_followers"
+            android:text="@string/txt_12k"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_followers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_hft"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/small_4dp"
+            android:layout_marginTop="@dimen/large_67dp"
+            android:layout_toStartOf="@id/txt_following_count"
+            android:text="@string/txt_followers"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_16sp" />
+
+        <TextView
+            android:id="@+id/txt_following_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_hft"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/small_10dp"
+            android:layout_marginTop="@dimen/large_64dp"
+            android:layout_toStartOf="@id/txt_following"
+            android:text="@string/txt_127"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_following"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_hft"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/small_4dp"
+            android:layout_marginTop="@dimen/large_67dp"
+            android:text="@string/txt_followings"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_16sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

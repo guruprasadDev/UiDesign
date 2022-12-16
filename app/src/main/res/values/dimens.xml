@@ -13,12 +13,15 @@
     <dimen name="small_8dp">8dp</dimen>
     <dimen name="small_10dp">10dp</dimen>
     <dimen name="small_12dp">12dp</dimen>
+    <dimen name="small_14dp">14dp</dimen>
     <dimen name="small_16dp">16dp</dimen>
+    <dimen name="small_18dp">18dp</dimen>
     <dimen name="small_20dp">20dp</dimen>
     <dimen name="small_24dp">24dp</dimen>
     <dimen name="small_28dp">28dp</dimen>
 
     <dimen name="normal_32dp">30dp</dimen>
+    <dimen name="normal_34dp">34dp</dimen>
     <dimen name="normal_36dp">36dp</dimen>
     <dimen name="normal_40dp">40dp</dimen>
     <dimen name="normal_44dp">44dp</dimen>
@@ -46,18 +49,36 @@
     <dimen name="large_100dp">100dp</dimen>
     <dimen name="large_120dp">120dp</dimen>
     <dimen name="large_130dp">130dp</dimen>
+    <dimen name="large_140dp">140dp</dimen>
+    <dimen name="large_150dp">150dp</dimen>
     <dimen name="large_160dp">160dp</dimen>
+    <dimen name="large_170dp">170dp</dimen>
+    <dimen name="large_180dp">180dp</dimen>
     <dimen name="large_200dp">200dp</dimen>
     <dimen name="large_240dp">240dp</dimen>
+    <dimen name="large_260dp">240dp</dimen>
+    <dimen name="large_280dp">280dp</dimen>
+    <dimen name="large_270dp">270dp</dimen>
+    <dimen name="large_300dp">300dp</dimen>
     <dimen name="large_110dp">110dp</dimen>
 
+    <dimen name="text_size_4sp">4sp</dimen>
+    <dimen name="text_size_6sp">6sp</dimen>
+    <dimen name="text_size_8sp">8sp</dimen>
     <dimen name="text_size_12sp">12sp</dimen>
     <dimen name="text_size_14sp">14sp</dimen>
     <dimen name="text_size_16sp">16sp</dimen>
     <dimen name="text_size_18sp">18sp</dimen>
     <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_30sp">30sp</dimen>
     <dimen name="text_size_24sp">24sp</dimen>
     <dimen name="text_size_28sp">28sp</dimen>
-    <dimen name="text_size_30sp">30sp</dimen>
+    <dimen name="text_size_32sp">32sp</dimen>
+    <dimen name="text_size_34sp">34sp</dimen>
+    <dimen name="text_size_36sp">36sp</dimen>
+    <dimen name="text_size_38sp">38sp</dimen>
+    <dimen name="text_size_42sp">42sp</dimen>
+    <dimen name="text_size_44sp">44sp</dimen>
+    <dimen name="text_size_40sp">40sp</dimen>
 
 </resources>

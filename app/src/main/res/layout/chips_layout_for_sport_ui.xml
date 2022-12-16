@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.chip.ChipGroup xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingStart="20dp"
+        app:chipSpacingHorizontal="@dimen/small_16dp"
+        app:singleLine="true">
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/normal_54dp"
+            android:text="@string/txt_full_body"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_20sp"
+            app:chipBackgroundColor="@color/black"
+            app:textEndPadding="@dimen/small_12dp"
+            app:textStartPadding="@dimen/small_16dp" />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/normal_54dp"
+            android:text="@string/txt_cardio"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            app:chipBackgroundColor="@color/white"
+            app:chipEndPadding="@dimen/small_4dp"
+            app:chipStartPadding="@dimen/small_4dp"
+            app:chipStrokeColor="@color/lite_gray"
+            app:chipStrokeWidth="1dp" />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/normal_54dp"
+            android:text="@string/txt_cross_fit"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:chipBackgroundColor="@color/white"
+            app:chipEndPadding="@dimen/small_4dp"
+            app:chipStartPadding="@dimen/small_4dp"
+            app:chipStrokeColor="@color/lite_gray"
+            app:chipStrokeWidth="1dp" />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/normal_54dp"
+            android:text="Cycling"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:chipBackgroundColor="@color/white"
+            app:chipStrokeColor="@color/lite_gray"
+            app:chipStrokeWidth="1dp"
+            app:textEndPadding="@dimen/small_10dp"
+            app:textStartPadding="@dimen/small_10dp" />
+
+    </com.google.android.material.chip.ChipGroup>
+</LinearLayout>

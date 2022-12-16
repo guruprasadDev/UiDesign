@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/saved_transaction"
+    android:layout_margin="@dimen/small_28dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/home_rent_cv"
+        android:layout_width="@dimen/large_140dp"
+        android:layout_height="@dimen/large_140dp"
+        android:layout_alignParentStart="true"
+        android:layout_margin="@dimen/small_20dp"
+        app:cardCornerRadius="@dimen/small_20dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="@dimen/small_1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ic_home"
+                android:layout_width="@dimen/normal_48dp"
+                android:layout_height="@dimen/normal_48dp"
+                android:layout_marginStart="@dimen/small_16dp"
+                android:layout_marginTop="@dimen/small_16dp"
+                android:background="@drawable/bg_circle_black"
+                android:padding="@dimen/small_12dp"
+                android:src="@drawable/ic_home" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/small_12dp"
+                android:layout_marginTop="@dimen/small_28dp"
+                android:layout_toEndOf="@id/ic_home"
+                android:text="12 Jan"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ic_home"
+                android:layout_marginStart="@dimen/small_20dp"
+                android:layout_marginTop="@dimen/small_20dp"
+                android:text="House rent"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_18sp" />
+
+        </RelativeLayout>
+        
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/health_cv"
+        android:layout_width="@dimen/large_140dp"
+        android:layout_height="@dimen/large_140dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/small_20dp"
+        android:layout_marginTop="@dimen/small_20dp"
+        android:layout_marginEnd="@dimen/small_20dp"
+        android:layout_marginBottom="@dimen/small_20dp"
+        app:cardCornerRadius="@dimen/small_20dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="@dimen/small_1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ic_health"
+                android:layout_width="@dimen/normal_48dp"
+                android:layout_height="@dimen/normal_48dp"
+                android:layout_marginStart="@dimen/small_20dp"
+                android:layout_marginTop="@dimen/small_16dp"
+                android:background="@drawable/bg_circle_black"
+                android:padding="@dimen/small_12dp"
+                android:src="@drawable/ic_health" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/small_12dp"
+                android:layout_marginTop="@dimen/small_28dp"
+                android:layout_toEndOf="@id/ic_health"
+                android:text="23 Jan"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ic_health"
+                android:layout_marginStart="@dimen/small_20dp"
+                android:layout_marginTop="@dimen/small_20dp"
+                android:text="Your Health"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_18sp" />
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/shopping_cv"
+        android:layout_width="@dimen/large_140dp"
+        android:layout_height="@dimen/large_140dp"
+        android:layout_below="@id/home_rent_cv"
+        android:layout_marginStart="@dimen/small_20dp"
+        android:layout_marginTop="@dimen/small_20dp"
+        android:layout_marginEnd="@dimen/small_20dp"
+        android:layout_marginBottom="@dimen/small_20dp"
+        app:cardCornerRadius="@dimen/small_20dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="@dimen/small_1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ic_shopping"
+                android:layout_width="@dimen/normal_48dp"
+                android:layout_height="@dimen/normal_48dp"
+                android:layout_marginStart="@dimen/small_20dp"
+                android:layout_marginTop="@dimen/small_16dp"
+                android:background="@drawable/bg_circle_black"
+                android:padding="@dimen/small_12dp"
+                android:src="@drawable/ic_baseline_shopping_cart_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/small_12dp"
+                android:layout_marginTop="@dimen/small_28dp"
+                android:layout_toEndOf="@id/ic_shopping"
+                android:text="2 Dec"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ic_shopping"
+                android:layout_marginStart="@dimen/small_20dp"
+                android:layout_marginTop="@dimen/small_20dp"
+                android:text="Shopping"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_18sp" />
+
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/university_cv"
+        android:layout_width="@dimen/large_140dp"
+        android:layout_height="@dimen/large_140dp"
+        android:layout_below="@id/home_rent_cv"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/small_20dp"
+        android:layout_marginTop="@dimen/small_20dp"
+        android:layout_marginEnd="@dimen/small_20dp"
+        android:layout_marginBottom="@dimen/small_20dp"
+        app:cardCornerRadius="@dimen/small_20dp"
+        app:strokeColor="@color/black"
+        app:cardBackgroundColor="@color/dark_gray"
+        app:strokeWidth="@dimen/small_1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/university_ic"
+                android:layout_width="@dimen/normal_48dp"
+                android:layout_height="@dimen/normal_48dp"
+                android:layout_marginStart="@dimen/small_20dp"
+                android:layout_marginTop="@dimen/small_16dp"
+                android:background="@drawable/bg_circle_gradient"
+                android:padding="@dimen/small_12dp"
+                android:src="@drawable/ic_baseline_cast_for_education_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/small_12dp"
+                android:layout_marginTop="@dimen/small_28dp"
+                android:layout_toEndOf="@id/university_ic"
+                android:text="15 Dec"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_14sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/university_ic"
+                android:layout_marginStart="@dimen/small_20dp"
+                android:layout_marginTop="@dimen/small_20dp"
+                android:text="University"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_18sp" />
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>
