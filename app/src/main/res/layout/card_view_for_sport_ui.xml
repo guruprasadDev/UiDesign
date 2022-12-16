@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:text="@string/txt_loose_n_booty_fat"
             android:textColor="@color/black"
-            android:textSize="@dimen/text_size_40sp"
+            android:textSize="@dimen/text_size_36sp"
             android:textStyle="bold" />
 
         <TextView
@@ -32,7 +32,7 @@
             android:background="@drawable/bg_rounded_pink"
             android:paddingHorizontal="@dimen/small_20dp"
             android:paddingVertical="@dimen/small_8dp"
-            android:text="Middle level"
+            android:text="@string/txt_middle_level"
             android:textColor="@color/white"
             android:textSize="@dimen/text_size_24sp"
             android:textStyle="bold" />
