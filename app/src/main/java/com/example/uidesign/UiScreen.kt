@@ -6,6 +6,6 @@ import android.os.Bundle
 class UiScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.sport_mobile_ui)
+        setContentView(R.layout.saved_transaction)
     }
 }

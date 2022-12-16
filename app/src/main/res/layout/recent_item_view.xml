@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/small_8dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/num_txt"
+        android:layout_width="@dimen/large_60dp"
+        android:layout_height="@dimen/large_60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_circle_red"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/small_20dp"
+        android:text="@string/txt_21"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/small_18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/foods_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_24dp"
+        android:layout_marginTop="@dimen/small_20dp"
+        android:layout_toEndOf="@id/num_txt"
+        android:text="Seabra Foods"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/date_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/foods_txt"
+        android:layout_marginStart="@dimen/small_24dp"
+        android:layout_toEndOf="@id/num_txt"
+        android:fontFamily="sans-serif"
+        android:text="@string/txt_13_dec_2022"
+        android:textColor="@color/lite_gray"
+        android:textSize="@dimen/text_size_14sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/dollar_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/small_24dp"
+        android:layout_marginTop="@dimen/small_16dp"
+        android:layout_marginEnd="@dimen/small_28dp"
+        android:text="@string/txt_98_60"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/income_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dollar_txt"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/small_24dp"
+        android:layout_marginTop="@dimen/small_1dp"
+        android:layout_marginEnd="@dimen/normal_40dp"
+        android:text="@string/txt_income"
+        android:textColor="@color/lite_gray"
+        android:textSize="@dimen/text_size_12sp" />
+
+    <ImageView
+        android:id="@+id/img_back_arrow"
+        android:layout_width="@dimen/small_18dp"
+        android:layout_height="@dimen/small_18dp"
+        android:layout_below="@id/dollar_txt"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/small_20dp"
+        android:src="@drawable/ic_arrow_upward" />
+
+</RelativeLayout>

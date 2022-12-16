@@ -26,4 +26,11 @@
     <string name="txt_25">76%</string>
     <string name="txt_great">Great!</string>
     <string name="you_lost_70_of_your_n_daily_calorie_intake">You lost 70% of your\ndaily calorie intake</string>
+    <string name="txt_middle_level">Middle level</string>
+    <string name="txt_21">21%</string>
+    <string name="txt_13_dec_2022">13 Dec 2022</string>
+    <string name="txt_98_60">$98.60</string>
+    <string name="txt_income">Income</string>
+    <string name="txt_recent_activity">Recent Activity</string>
+    <string name="txt_saved_transaction">Saved Transaction</string>
 </resources>
